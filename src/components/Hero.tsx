@@ -46,7 +46,7 @@ const Hero = () => {
       </div>
 
       {/* Goodies Section */}
-      <div className="cursor-pointer absolute bottom-16 flex flex-col items-center" onClick={() => handleRedirect("/#projects")}>
+      <div className="cursor-pointer absolute bottom-5 flex flex-col items-center" onClick={() => handleRedirect("/#projects")}>
         <p className="text-sm">down here for the goodies~</p>
         <svg
           viewBox="0 0 24 24"
