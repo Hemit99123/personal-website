@@ -3,8 +3,6 @@ import ProjectItem from './ProjectItem';
 import projectData from '@/data/projects';
 
 const Projects = () => {
-  // Define an array of project objects with width and height
-
 
   return (
     <div id="projects" className="mt-10 px-52 lg:px-30">
