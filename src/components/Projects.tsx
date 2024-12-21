@@ -5,7 +5,7 @@ import projectData from '@/data/projects';
 const Projects = () => {
 
   return (
-    <div id="projects" className="mt-10 px-52 lg:px-30">
+    <div id="projects" className="mt-10 px-52 lg:px-30 mb-20">
       <h1 className="text-5xl font-black mb-10">Projects</h1>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
         {/* Map through projectData and pass props to ProjectItem */}
