@@ -1,29 +1,9 @@
 import React from 'react';
 import Job from './Job';
+import jobs from '@/data/experience';
 
 const Experience = () => {
-  const jobs = [
-    {
-      title: "President, DailySAT",
-      date: "Aug 2024-Present",
-      imgSrc: "/companies/dailysat.png",
-    },
-    {
-      title: "CTO, Talem",
-      date: "July 2024-Present",
-      imgSrc: "/companies/talem.png",
-    },
-    {
-      title: "Software Engineer Intern, GharMates",
-      date: "Dec 2023- Aug 2024",
-      imgSrc: "/companies/gharmates.png",
-    },
-    {
-      title: "Chairman & CTO, Everyone STEM",
-      date: "July 2023-Dec 2024",
-      imgSrc: "/companies/everyone-stem.png",
-    },
-  ];
+
 
   return (
     <div className="mt-10 px-4 sm:px-6 md:px-12 lg:px-16 xl:px-52 mb-16">
