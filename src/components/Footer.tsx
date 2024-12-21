@@ -13,7 +13,7 @@ const Footer = () => {
             <p>Fun Facts:</p>
             <div className="text-pink-500">
                 <p>- i love Harry Potter</p>
-                <p>- i'm a gym rat</p>
+                <p>- i&apos;m a gym rat</p>
                 <p>- i love history + politics</p> 
             </div>
         </div>
