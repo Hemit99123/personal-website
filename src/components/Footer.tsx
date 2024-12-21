@@ -12,9 +12,9 @@ const Footer = () => {
         <div className="mb-6 lg:mb-0">
             <p>Fun Facts:</p>
             <div className="text-pink-500">
-                <p>- I love Harry Potter</p>
-                <p>- I'm a gym rat</p>
-                <p>- I love history + politics</p> 
+                <p>- i love Harry Potter</p>
+                <p>- i'm a gym rat</p>
+                <p>- i love history + politics</p> 
             </div>
         </div>
 
