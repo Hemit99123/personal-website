@@ -1,6 +1,6 @@
 const jobs = [
     {
-      title: "President, DailySAT",
+      title: "President & COO, DailySAT",
       date: "Aug 2024-Present",
       imgSrc: "/companies/dailysat.png",
     },
