@@ -69,7 +69,7 @@ export const projectData: ProjectData[] = [
     link: "https://dailysat.org",
     description:
         "DailySAT is the website that helps you with your post-secondary journey! From SAT prep through our extensive list to our financial literacy platform, we got students :)",
-    mainImage: "/mockups/talem/talem.png",
+    mainImage: "/mockups/dailysat/dailysat.png",
     impact: [
         "Leading the team through a thorough discovery period",
         "Developing an implementation strategy for the build phase",
@@ -77,8 +77,8 @@ export const projectData: ProjectData[] = [
     ],
     caseStudyImages: [
         "https://uploads-ssl.webflow.com/5c97a885435bfc2a1950b9ef/5e8cd6e36f24a898cadbf9f5_Habito%20case%20study%201-p-2000.jpeg",
-        "/mockups/talem/1.png",
-        "/mockups/talem/2.png",
+        "/mockups/dailysat/1.png",
+        "/mockups/dailysat/2.png",
     ],
     stats: [
       {
