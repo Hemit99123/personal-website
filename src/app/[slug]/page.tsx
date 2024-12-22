@@ -76,7 +76,7 @@ const Page: React.FC<PageParams> = ({ params }) => {
                     My Impact?
                 </h1>
 
-                <div className="mt-16 space-y-6 text-lg font-medium">
+                <div className="mt-16 space-y-6 text-xl font-medium">
                     {project.impact.map((point: string, index: number) => (
                         <p key={index}>{`#${index + 1}: ${point}`}</p>
                     ))}
