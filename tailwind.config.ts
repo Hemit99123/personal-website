@@ -9,7 +9,8 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        code: ["Fira Code", "monospace"], // Adding Fira Code as a 'code' font
+        code: ["Fira Code", "monospace"], 
+        header: ["Merriweather", "serif"]
       },
     },
   },
