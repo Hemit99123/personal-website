@@ -43,11 +43,20 @@ export const projectData = [
           "/mockups/talem/1.png",
           "/mockups/talem/2.png",
       ],
-      stats: {
-          dailyUsers: 400,
-          lifetimeUsers: "200k",
-          funding: "$3k",
-      },
+      stats: [
+        {
+          stat: "400",
+          desc: "daily users"
+        },
+        {
+          stat: "$3k",
+          desc: "funding"
+        },
+        {
+          stat: "300k",
+          desc: "total users :)"
+        }
+      ],
   },
   // Add more projects as needed
 ];

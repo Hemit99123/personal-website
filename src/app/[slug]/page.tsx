@@ -3,14 +3,14 @@
 import { useRouter } from "next/navigation";
 import { useEffect, useState } from "react";
 import { projectData } from "@/data/projects";
-
+import { ProjectData } from "@/types/project";
 
 interface PageParams {
     params: Promise<{ slug: string }>;
 }
 
 const Page: React.FC<PageParams> = ({ params }) => {
-    const [project, setProject] = useState<any | null>(null);
+    const [project, setProject] = useState<ProjectData | null>(null);
     const router = useRouter();
 
     useEffect(() => {
@@ -130,21 +130,21 @@ const Page: React.FC<PageParams> = ({ params }) => {
                 <div className="flex justify-between">
                     <div>
                         <h1 className="font-bold text-sky-800 text-6xl mb-px">
-                            {project.stats.dailyUsers}
+                            {project.stats[0].stat}
                         </h1>
-                        <p>daily active users</p>
+                        <p>{project.stats[0].desc}</p>
                     </div>
                     <div>
                         <h1 className="font-bold text-sky-800 text-6xl mb-px">
-                            {project.stats.lifetimeUsers}
+                            {project.stats[2].stat}
                         </h1>
-                        <p>lifetime users</p>
+                        <p>{project.stats[2].desc}</p>
                     </div>
                     <div>
                         <h1 className="font-bold text-sky-800 text-6xl mb-px">
-                            {project.stats.funding}
+                            {project.stats[1].stat}
                         </h1>
-                        <p>in funding</p>
+                        <p>{project.stats[1].desc}</p>
                     </div>
                 </div>
 
