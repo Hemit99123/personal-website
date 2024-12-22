@@ -63,6 +63,38 @@ export const projectData: ProjectData[] = [
       nextProject: "/dailysat"
   },
 
+  {
+    slug: "dailysat",
+    title: "DailySAT Platform",
+    link: "https://dailysat.org",
+    description:
+        "DailySAT is the website that helps you with your post-secondary journey! From SAT prep through our extensive list to our financial literacy platform, we got students :)",
+    mainImage: "/mockups/talem/talem.png",
+    impact: [
+        "Leading the team through a thorough discovery period",
+        "Developing an implementation strategy for the build phase",
+        "Bringing together people from various parts of the business to collaborate",
+    ],
+    caseStudyImages: [
+        "https://uploads-ssl.webflow.com/5c97a885435bfc2a1950b9ef/5e8cd6e36f24a898cadbf9f5_Habito%20case%20study%201-p-2000.jpeg",
+        "/mockups/talem/1.png",
+        "/mockups/talem/2.png",
+    ],
+    stats: [
+      {
+        stat: "70k+",
+        desc: "total users"
+      },
+      {
+        stat: "1300",
+        desc: "SAT questsions added"
+      },
+      {
+        stat: "100+",
+        desc: "members on Discord"
+      }
+    ],
+    nextProject: "/trashify"
+},
 
-  // Add more projects as needed
 ];
