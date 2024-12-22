@@ -12,6 +12,7 @@ export interface ProjectData {
     impact: string[];
     stats: Stats[];
     nextProject: string;
+    link: string;
 }
 
 export interface ProjectItem {

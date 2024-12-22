@@ -32,6 +32,7 @@ export const projectData: ProjectData[] = [
   {
       slug: "talem",
       title: "Talem Website",
+      link: "https://talem.org",
       description:
           "Talem is a website all about helping highschoolers with their high school journey. From extracurriculars to post-secondary help, we got you covered!",
       mainImage: "/mockups/talem/talem.png",
@@ -61,5 +62,7 @@ export const projectData: ProjectData[] = [
       ],
       nextProject: "/dailysat"
   },
+
+
   // Add more projects as needed
 ];

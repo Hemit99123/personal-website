@@ -33,6 +33,10 @@ const Page: React.FC<PageParams> = ({ params }) => {
         router.push(project.nextProject)
     }
 
+    const goToCheckOut = () => {
+        router.push(project.link)
+    }
+
     return (
         <>
             {/* Main Content */}
@@ -52,7 +56,7 @@ const Page: React.FC<PageParams> = ({ params }) => {
                     <p className="text-lg sm:text-xl text-gray-700 font-medium max-w-full md:max-w-xl text-center md:text-left">
                         {project.description}
                     </p>
-                    <button className="border w-full md:w-1/3 lg:w-1/5 h-12 rounded-lg border-gray-500 font-semibold hover:bg-black hover:text-white duration-300">
+                    <button className="border w-full md:w-1/3 lg:w-1/5 h-12 rounded-lg border-gray-500 font-semibold hover:bg-black hover:text-white duration-300" onClick={goToCheckOut}>
                         Check it out!
                     </button>
                 </div>
