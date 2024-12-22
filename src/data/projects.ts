@@ -1,4 +1,4 @@
-const projectData = [
+export const projects = [
     {
       title: 'Talem',
       slug: "talem",
@@ -23,7 +23,31 @@ const projectData = [
       slug: "everyoneclass",
       imgSrc: '/projects-assets/everyone-stem.png',
       hoverImgSrc: '/projects-assets/everyone-stem-hover.png',
-    },
+      },
 ];
 
-export default projectData
+export const projectData = [
+  {
+      slug: "talem",
+      title: "Talem Website",
+      description:
+          "Talem is a website all about helping highschoolers with their high school journey. From extracurriculars to post-secondary help, we got you covered!",
+      mainImage: "/mockups/talem/talem.png",
+      impact: [
+          "Leading the team through a thorough discovery period",
+          "Developing an implementation strategy for the build phase",
+          "Bringing together people from various parts of the business to collaborate",
+      ],
+      caseStudyImages: [
+          "https://uploads-ssl.webflow.com/5c97a885435bfc2a1950b9ef/5e8cd6e36f24a898cadbf9f5_Habito%20case%20study%201-p-2000.jpeg",
+          "https://uploads-ssl.webflow.com/5c97a885435bfc2a1950b9ef/5e8cd46846a87d057dfe8821_Habito%20case%20study%202.png",
+          "https://uploads-ssl.webflow.com/5c97a885435bfc2a1950b9ef/5e8cd479b01ccf6de31effbd_Habito%20case%20study%203.png",
+      ],
+      stats: {
+          dailyUsers: 400,
+          lifetimeUsers: "200k",
+          funding: "$3k",
+      },
+  },
+  // Add more projects as needed
+];

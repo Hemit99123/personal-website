@@ -1,6 +1,6 @@
 import React from 'react';
 import ProjectItem from './ProjectItem';
-import projectData from '@/data/projects';
+import {projects} from '@/data/projects';
 
 const Projects = () => {
   return (
@@ -8,7 +8,7 @@ const Projects = () => {
       <h1 className="text-3xl sm:text-4xl md:text-5xl font-black mb-10">Projects</h1>
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-8">
         {/* Map through projectData and pass props to ProjectItem */}
-        {projectData.map((project, index) => (
+        {projects.map((project, index) => (
           <ProjectItem
             key={index}
             title={project.title}
