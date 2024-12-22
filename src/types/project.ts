@@ -12,3 +12,10 @@ export interface ProjectData {
     impact: string[];
     stats: Stats[];
 }
+
+export interface ProjectItem {
+    title: string;
+    slug: string;
+    imgSrc: string;
+    hoverImgSrc: string;
+}

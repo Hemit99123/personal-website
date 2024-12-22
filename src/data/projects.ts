@@ -1,6 +1,6 @@
-import { ProjectData } from "@/types/project";
+import { ProjectData, ProjectItem } from "@/types/project";
 
-export const projects = [
+export const projects: ProjectItem[] = [
     {
       title: 'Talem',
       slug: "talem",
