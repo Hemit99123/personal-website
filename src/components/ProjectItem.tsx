@@ -1,18 +1,26 @@
 "use client";
 
+import { useRouter } from 'next/navigation';
 import React, { useState } from 'react';
 
 interface ProjectItemProps {
   title: string;
   imgSrc: string;
   hoverImgSrc: string;
+  slug: string;
 }
 
-const ProjectItem: React.FC<ProjectItemProps> = ({ title, imgSrc, hoverImgSrc}) => {
+const ProjectItem: React.FC<ProjectItemProps> = ({ title, imgSrc, hoverImgSrc, slug}) => {
   const [isHovered, setIsHovered] = useState(false);
 
+  const router = useRouter()
+
+  const handleGoPage = () => {
+    router.push(slug)
+  }
+
   return (
-    <div className="cursor-pointer">
+    <div className="cursor-pointer" onClick={handleGoPage}>
       <div
         className="border-2 border-black flex justify-center items-center relative overflow-hidden h-80"
         onMouseEnter={() => setIsHovered(true)}

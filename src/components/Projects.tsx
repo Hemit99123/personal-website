@@ -14,6 +14,7 @@ const Projects = () => {
             title={project.title}
             imgSrc={project.imgSrc}
             hoverImgSrc={project.hoverImgSrc}
+            slug={project.slug}
           />
         ))}
       </div>
