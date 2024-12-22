@@ -1,3 +1,5 @@
+import { ProjectData } from "@/types/project";
+
 export const projects = [
     {
       title: 'Talem',
@@ -26,7 +28,7 @@ export const projects = [
       },
 ];
 
-export const projectData = [
+export const projectData: ProjectData[] = [
   {
       slug: "talem",
       title: "Talem Website",
@@ -57,6 +59,7 @@ export const projectData = [
           desc: "total users :)"
         }
       ],
+      
   },
   // Add more projects as needed
 ];
