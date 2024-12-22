@@ -37,9 +37,9 @@ export const projectData: ProjectData[] = [
           "Talem is a website all about helping highschoolers with their high school journey. From extracurriculars to post-secondary help, we got you covered!",
       mainImage: "/mockups/talem/talem.png",
       impact: [
-          "Leading the team through a thorough discovery period",
-          "Developing an implementation strategy for the build phase",
-          "Bringing together people from various parts of the business to collaborate",
+          "Built the whole blog platform",
+          "Added user authentication using Firebase claim",
+          "Updated about page with new UI designs",
       ],
       caseStudyImages: [
           "https://uploads-ssl.webflow.com/5c97a885435bfc2a1950b9ef/5e8cd6e36f24a898cadbf9f5_Habito%20case%20study%201-p-2000.jpeg",
