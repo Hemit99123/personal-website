@@ -40,8 +40,8 @@ export const projectData = [
       ],
       caseStudyImages: [
           "https://uploads-ssl.webflow.com/5c97a885435bfc2a1950b9ef/5e8cd6e36f24a898cadbf9f5_Habito%20case%20study%201-p-2000.jpeg",
-          "https://uploads-ssl.webflow.com/5c97a885435bfc2a1950b9ef/5e8cd46846a87d057dfe8821_Habito%20case%20study%202.png",
-          "https://uploads-ssl.webflow.com/5c97a885435bfc2a1950b9ef/5e8cd479b01ccf6de31effbd_Habito%20case%20study%203.png",
+          "/mockups/talem/1.png",
+          "/mockups/talem/2.png",
       ],
       stats: {
           dailyUsers: 400,
