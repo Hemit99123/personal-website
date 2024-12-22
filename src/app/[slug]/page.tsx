@@ -73,7 +73,7 @@ const Page: React.FC<PageParams> = ({ params }) => {
             {/* Impact Section */}
             <div className="bg-black text-white px-6 sm:px-12 md:px-32 lg:px-52 mt-28 py-16">
                 <h1 className="font-black font-header text-xl sm:text-2xl md:text-4xl">
-                    My Impact? My Learning?
+                    My Impact?
                 </h1>
 
                 <div className="mt-16 space-y-6 text-lg font-medium">
