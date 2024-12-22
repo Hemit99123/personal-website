@@ -11,6 +11,7 @@ export interface ProjectData {
     caseStudyImages: string[];
     impact: string[];
     stats: Stats[];
+    nextProject: string;
 }
 
 export interface ProjectItem {

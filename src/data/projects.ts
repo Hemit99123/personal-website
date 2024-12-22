@@ -59,7 +59,7 @@ export const projectData: ProjectData[] = [
           desc: "total users :)"
         }
       ],
-      
+      nextProject: "/dailysat"
   },
   // Add more projects as needed
 ];

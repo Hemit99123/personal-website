@@ -29,6 +29,10 @@ const Page: React.FC<PageParams> = ({ params }) => {
 
     if (!project) return <p>Loading...</p>;
 
+    const goToNextProject = () => {
+        router.push(project.nextProject)
+    }
+
     return (
         <>
             {/* Main Content */}
@@ -149,7 +153,7 @@ const Page: React.FC<PageParams> = ({ params }) => {
                 </div>
 
                 <hr className="h-px my-8 bg-black border-0" />
-                <p className="text-right cursor-pointer hover:underline hover:text-blue-500 mb-10">
+                <p className="text-right cursor-pointer hover:underline hover:text-blue-500 mb-10" onClick={goToNextProject}>
                     View next project ➔
                 </p>
             </div>
