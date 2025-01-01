@@ -135,7 +135,7 @@ const Page: React.FC<PageParams> = ({ params }) => {
         Stats?
     </h1>
 
-    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8 lg:gap-12 text-center lg:text-left">
+    <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 sm:gap-8 lg:gap-12 text-center lg:text-left">
         {project.stats.map((stat, index) => (
             <div key={index} className="flex flex-col items-center lg:items-start">
                 <h1 className="font-bold text-sky-800 text-4xl sm:text-5xl lg:text-6xl mb-1">
