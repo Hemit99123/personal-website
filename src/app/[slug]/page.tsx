@@ -135,7 +135,7 @@ const Page: React.FC<PageParams> = ({ params }) => {
                     Stats?
                 </h1>
 
-                <div className="flex justify-between">
+                <div className="flex lg:justify-between sm:space-y-2">
                     <div>
                         <h1 className="font-bold text-sky-800 text-6xl mb-px">
                             {project.stats[0].stat}
