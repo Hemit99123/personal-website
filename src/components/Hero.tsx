@@ -13,13 +13,14 @@ const Hero = () => {
   };
 
   return (
-    <div className="flex flex-col justify-center items-center h-screen relative">
+    <div className="flex flex-col justify-center items-center h-screen relative md:pb-0 pb-10">
       {/* Name/Image */}
       <Image
         src="/HeroName.png"
         alt="my name"
         width={500}
         height={0}
+        className="md:w-auto w-3/4"
       />
 
       {/* Description */}
@@ -46,7 +47,10 @@ const Hero = () => {
       </div>
 
       {/* Goodies Section */}
-      <div className="cursor-pointer absolute bottom-5 flex flex-col items-center" onClick={() => handleRedirect("/#projects")}>
+      <div
+        className="cursor-pointer absolute bottom-5 flex flex-col items-center md:bottom-5 bottom-10"
+        onClick={() => handleRedirect("/#projects")}
+      >
         <p className="text-sm">down here for the goodies~</p>
         <svg
           viewBox="0 0 24 24"
