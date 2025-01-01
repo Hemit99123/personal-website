@@ -6,7 +6,7 @@ const testimonials = [
       title: 'Ex-CEO of OKEX',
     },
     {
-      testimonial: "Hemit is an extremely talented young man. I've had the pleasure of mentoring / working with Hemit from the beginning. He's a quick learner and is years ahead of his age. Hemit has a very bright future ahead, looking forward to working with him in the future",
+      testimonial: "Hemit is an extremely talented young man. I've had the pleasure of mentoring and working with Hemit from the beginning. He's a quick learner and is years ahead of his age. Hemit has a very bright future ahead, looking forward to working with him in the future",
       person: 'Parth Patel',
       personImg: '/people/parth-patel.png',
       title: 'Board Member of GharMates',
