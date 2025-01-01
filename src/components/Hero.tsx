@@ -13,7 +13,7 @@ const Hero = () => {
   };
 
   return (
-    <div className="flex flex-col justify-center items-center h-screen relative md:pb-0 pb-10">
+    <div className="flex flex-col justify-center items-center h-screen relative md:pb-0 pb-16 sm:-mt-20">
       {/* Name/Image */}
       <Image
         src="/HeroName.png"
@@ -24,7 +24,7 @@ const Hero = () => {
       />
 
       {/* Description */}
-      <div className="max-w-[700px] mt-7">
+      <div className="max-w-[700px] mt-7 sm:mt-5">
         <p className="text-xl text-center font-medium">
           an aspiring software engineer, focusing on beautiful designs, shipping impact, GTFOL
         </p>
@@ -48,7 +48,7 @@ const Hero = () => {
 
       {/* Goodies Section */}
       <div
-        className="cursor-pointer absolute bottom-5 flex flex-col items-center md:bottom-5 bottom-10"
+        className="cursor-pointer absolute bottom-5 flex flex-col items-center md:bottom-5 sm:bottom-16"
         onClick={() => handleRedirect("/#projects")}
       >
         <p className="text-sm">down here for the goodies~</p>
