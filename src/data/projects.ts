@@ -87,7 +87,7 @@ export const projectData: ProjectData[] = [
       },
       {
         stat: "1300",
-        desc: "SAT questsions added"
+        desc: "SAT questions added"
       },
       {
         stat: "130+",
