@@ -68,7 +68,7 @@ export const projectData: ProjectData[] = [
     title: "DailySAT Platform",
     link: "https://dailysat.org",
     description:
-        "DailySAT is the website that helps you with your post-secondary journey! From SAT prep through our extensive list to our financial literacy platform, we got students",
+        "DailySAT is the website that helps you with your post-secondary journey! From SAT prep through our extensive list to our financial literacy platform!!",
     mainImage: "/mockups/dailysat/dailysat.png",
     impact: [
         "Leading the team through a thorough discovery period",
