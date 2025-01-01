@@ -53,7 +53,7 @@ export const projectData: ProjectData[] = [
         },
         {
           stat: "$3,000",
-          desc: "funding"
+          desc: "in funding"
         },
         {
           stat: "300k",
