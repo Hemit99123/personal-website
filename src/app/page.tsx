@@ -1,3 +1,4 @@
+import BlogSection from '@/components/BlogSection'
 import Experience from '@/components/Experience'
 import Footer from '@/components/Footer'
 import Hero from '@/components/Hero'
@@ -14,6 +15,7 @@ const page = () => {
       <Experience />
       <Skills />
       <Testimonials />
+      <BlogSection />
       <Footer />
     </div>
   )
