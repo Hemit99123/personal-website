@@ -131,36 +131,30 @@ const Page: React.FC<PageParams> = ({ params }) => {
             </div>
 
             <div className="px-6 sm:px-12 md:px-32 lg:px-52">
-                <h1 className="font-black font-header text-2xl sm:text-3xl md:text-5xl mb-5">
-                    Stats?
+    <h1 className="font-black font-header text-2xl sm:text-3xl md:text-5xl mb-5">
+        Stats?
+    </h1>
+
+    <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 sm:gap-8 lg:gap-12 text-center lg:text-left">
+        {project.stats.map((stat, index) => (
+            <div key={index} className="flex flex-col items-center lg:items-start">
+                <h1 className="font-bold text-sky-800 text-4xl sm:text-5xl lg:text-6xl mb-1">
+                    {stat.stat}
                 </h1>
-
-                <div className="flex justify-between">
-                    <div>
-                        <h1 className="font-bold text-sky-800 text-6xl mb-px">
-                            {project.stats[0].stat}
-                        </h1>
-                        <p>{project.stats[0].desc}</p>
-                    </div>
-                    <div>
-                        <h1 className="font-bold text-sky-800 text-6xl mb-px">
-                            {project.stats[2].stat}
-                        </h1>
-                        <p>{project.stats[2].desc}</p>
-                    </div>
-                    <div>
-                        <h1 className="font-bold text-sky-800 text-6xl mb-px">
-                            {project.stats[1].stat}
-                        </h1>
-                        <p>{project.stats[1].desc}</p>
-                    </div>
-                </div>
-
-                <hr className="h-px my-8 bg-black border-0" />
-                <p className="text-right cursor-pointer hover:underline hover:text-blue-500 mb-10" onClick={goToNextProject}>
-                    View next project ➔
-                </p>
+                <p className="text-gray-700">{stat.desc}</p>
             </div>
+        ))}
+    </div>
+
+    <hr className="h-px my-8 bg-black border-0" />
+    <p
+        className="text-right cursor-pointer hover:underline hover:text-blue-500 mb-10"
+        onClick={goToNextProject}
+    >
+        View next project ➔
+    </p>
+</div>
+
         </>
     );
 };
