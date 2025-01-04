@@ -6,4 +6,3 @@ This is the code/styling behind my personal website which showcases all my skill
 
 - NextJS
 - TailwindCSS
-- Sanity CMS service
