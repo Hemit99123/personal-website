@@ -17,7 +17,7 @@ const BlogSection = () => {
         <p className="text-gray-500">I am also into blogging new technologies and learnings I find!</p>
         <button 
             onClick={handleGoBlog} 
-            className="bg-black text-white px-10 py-3 rounded-lg hover:bg-white hover:text-black duration-500 border-2 mt-2"
+            className="bg-black text-white px-10 py-3 rounded-lg hover:bg-white hover:text-black duration-500 border-2 border-black mt-2"
         >
             Check it out 😪
         </button>
