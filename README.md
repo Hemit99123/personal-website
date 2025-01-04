@@ -4,5 +4,5 @@ This is the code/styling behind my personal website which showcases all my skill
 
 ## 🧑🏽‍💻 Tech used 
 
-- NextJS
-- TailwindCSS
+- NextJS (for the website itself)
+- TailwindCSS (for styling the website)
