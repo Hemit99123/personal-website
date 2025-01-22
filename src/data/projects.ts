@@ -96,5 +96,37 @@ export const projectData: ProjectData[] = [
     ],
     nextProject: "/trashify"
 },
-
+{
+  slug: "trashify",
+  title: "Trashify Platform",
+  link: "https://github.com/Hemit99123/trashify",
+  description:
+      "Trashify is a platform that allows you to find your clostest trash bin. It was a summer-break pet-project I created to learn new developmental processes.",
+  mainImage: "/mockups/trashify/trashify.png",
+  impact: [
+      "Leading the team through a thorough discovery period",
+      "Developing an implementation strategy for the build phase",
+      "Bringing together people from various parts of the business to collaborate",
+  ],
+  caseStudyImages: [
+      "https://uploads-ssl.webflow.com/5c97a885435bfc2a1950b9ef/5e8cd6e36f24a898cadbf9f5_Habito%20case%20study%201-p-2000.jpeg",
+      "/mockups/trashify/1.png",
+      "/mockups/trashify/2.png",
+  ],
+  stats: [
+    {
+      stat: "<70ms",
+      desc: "api response"
+    },
+    {
+      stat: "2",
+      desc: "mircoservice integration"
+    },
+    {
+      stat: "10+",
+      desc: "investors interested (mircogrants)"
+    }
+  ],
+  nextProject: "/everyone-class"
+},
 ];
